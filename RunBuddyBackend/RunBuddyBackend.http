@@ -1,0 +1,6 @@
+@RunBuddyBackend_HostAddress = http://localhost:5187
+
+GET {{RunBuddyBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
